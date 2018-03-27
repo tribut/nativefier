@@ -44,6 +44,7 @@
     - [[crash-reporter]](#crash-reporter)
     - [[single-instance]](#single-instance)
     - [[tray]](#tray)
+    - [[start-in-tray]](#start-in-tray)
     - [[basic-auth-username]](#basic-auth-username)
     - [[basic-auth-password]](#basic-auth-username)
     - [[always-on-top]](#always-on-top)
@@ -452,6 +453,14 @@ Prevents application from being run multiple times. If such an attempt occurs th
 ```
 
 Application will stay as an icon in the system tray. Prevents application from being closed from clicking the window close button.
+
+#### [start-in-tray]
+
+```
+--start-in-tray
+```
+
+Application will not be shown on first start. Requires `--tray`.
 
 #### [basic-auth-username]
 

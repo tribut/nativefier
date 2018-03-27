@@ -68,6 +68,7 @@ export default function (inpOptions) {
     processEnvs: inpOptions.processEnvs,
     fileDownloadOptions: inpOptions.fileDownloadOptions,
     tray: inpOptions.tray || false,
+    startInTray: inpOptions.startInTray || false,
     basicAuthUsername: inpOptions.basicAuthUsername || null,
     basicAuthPassword: inpOptions.basicAuthPassword || null,
     alwaysOnTop: inpOptions.alwaysOnTop || false,

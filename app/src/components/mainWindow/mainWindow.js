@@ -91,6 +91,7 @@ function createMainWindow(inpOptions, onAppQuit, setDockBadge) {
     fullscreen: options.fullScreen || undefined,
     // Whether the window should always stay on top of other windows. Default is false.
     alwaysOnTop: options.alwaysOnTop,
+    show: !(options.tray && options.startInTray),
   });
 
   mainWindowState.manage(mainWindow);

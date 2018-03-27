@@ -50,6 +50,7 @@ function selectAppArgs(options) {
     processEnvs: options.processEnvs,
     fileDownloadOptions: options.fileDownloadOptions,
     tray: options.tray,
+    startInTray: options.startInTray,
     basicAuthUsername: options.basicAuthUsername,
     basicAuthPassword: options.basicAuthPassword,
     alwaysOnTop: options.alwaysOnTop,

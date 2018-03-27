@@ -87,6 +87,7 @@ if (require.main === module) {
     .option('--processEnvs <json-string>', 'a JSON string of key/value pairs to be set as environment variables before any browser windows are opened.', getProcessEnvs)
     .option('--file-download-options <json-string>', 'a JSON string of key/value pairs to be set as file download options.  See https://github.com/sindresorhus/electron-dl for available options.', parseJson)
     .option('--tray', 'allow app to stay in system tray')
+    .option('--start-in-tray', 'don\'t show main window on first start, requires --tray')
     .option('--basic-auth-username <value>', 'basic http(s) auth username')
     .option('--basic-auth-password <value>', 'basic http(s) auth password')
     .option('--always-on-top', 'enable always on top window')
